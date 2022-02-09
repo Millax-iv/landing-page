@@ -1,0 +1,186 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.header, .hero-section, .information-section, .customer-section,.register-section, .footer {
+  width: 1300px;
+}
+
+.container-white, .container-blue, .container-grey {
+  display: flex;
+  justify-content: center;
+} 
+
+.container-blue {
+  background-color: #1F2937;
+}
+
+.logo, .register-title {
+  font-size: 24px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.text, ul, a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.image-container .text {
+  color: grey;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 90px
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+
+.main-title {
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image {
+  background-color: grey;
+  padding: 110px 120px;
+  font-size: 18px;
+  color: #F9FAF8
+}
+  
+.information-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 120px;
+  gap: 40px;
+}
+
+.information-title {
+  margin-top: 40px;
+  font-size: 36px;
+}
+
+.image-container {
+  display: flex;
+  gap: 45px;
+}
+
+.image-box {
+  height: 170px;
+  width: 180px;
+  border-style: solid;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-color: #3882F6; 
+  border-width: 4px
+}
+
+.image {
+  max-width: 190px;
+  text-align: center;
+}
+
+.container-grey {
+  background-color: #E5E7EB;
+}
+
+.testimonial {
+  font-size: 36px;
+  font-weight: 100;
+  max-width: 770px
+}
+
+.testimonial-body {
+  display: flex;
+  flex-direction: column;
+  width: 770px;
+  gap: 20px;
+  padding-bottom: 90px;
+}
+
+.customer-name {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1F2937;
+}
+
+.customer-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px
+}
+
+.register-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 90px 0px;
+  background-color: #3882F6;
+  padding: 45px 0px;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+}
+
+.logo, .register-title, .title, button {
+  color: #F9FAF8;
+}
+
+.information-title, .testimonial {
+  color: #1F2937
+}
+
+.information-title, .logo {
+  font-weight: bolder;
+}
+
+button {
+  background-color: #3882F6;
+  width: 120px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 7px; 
+}
+
+.title-sign-up {
+  margin-top: 10px;
+  border-style: none;
+}
+
+.register-sign-up {
+  border-style: solid;
+}
